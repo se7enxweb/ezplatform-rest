@@ -3,6 +3,9 @@
     "description": "Exponential Platform REST bundle",
     "type": "ezplatform-bundle",
     "license": "GPL-2.0-or-later",
+    "replace": {
+        "ezsystems/ezplatform-rest": "self.version"
+    },
     "autoload": {
         "psr-4": {
             "EzSystems\\EzPlatformRestBundle\\": "src/bundle/",
